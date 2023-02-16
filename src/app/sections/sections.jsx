@@ -31,8 +31,6 @@ function Sections() {
 
   console.log(sections);
 
-  const navigate = useNavigate();
-
   const handleEdit = (section) => {
     setAppState({
       ...appState,
