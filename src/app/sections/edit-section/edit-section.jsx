@@ -61,10 +61,6 @@ export default function EditSection() {
             <h1 className="text-2xl font-semibold text-gray-900">
               Edit Section
             </h1>
-            {/* <p className="mt-1 text-sm text-gray-500">
-                This information will be displayed publicly so be careful what you
-                share.
-              </p> */}
             {error ? (
               <Alert
                 heading="Opps"
